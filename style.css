@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fae899;
+}
+.box{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+.outside, .money, .div.money:nth-child(2), div.money:nth-child(3), .inside, .inside-line, .part-1, .part-2{
+    position: absolute;
+}
+.outside{
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 35%;
+    background: #C1793E;
+    border-radius: 10px;
+    z-index: 1;
+}
+.money, .div.money:nth-child(2), .div.money:nth-child(3){
+    width: 50%;
+    height: 30%;
+    background: #BAF1B7;
+    border-top: 15px solid #5E9E61;
+    border-right: 20px solid #5E9E61;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+}
+.money{
+    left: 35%;
+    top: -5%;
+    z-index: 1;
+}
+div.money:nth-child(2){
+    left: 25%;
+    top: -8%;
+    z-index: 2;
+}
+div.money:nth-child(3){
+    left: 15%;
+    top: -11%;
+    z-index: 3;
+}
+.inside{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background: #C1793E;
+    border-radius: 10px;
+    z-index: 4;
+}
+.inside-line{
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 7.5%;
+    background: #C1793E;
+    border: 5px dashed #7D501D;
+    border-left: none;
+    z-index: 4;
+}
+.part-1{
+    width: 30%;
+    height: 20%;
+    right: -2%;
+    top: 40%;
+    background: #B76F34;
+    border-radius: 5px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    z-index: 4;
+}
+.part-2{
+    width: 20px;
+    height: 20px;
+    left: 10%;
+    top: 25%;
+    background: #fcd940;
+    border-radius: 50%;
+    z-index: 4;
+}
